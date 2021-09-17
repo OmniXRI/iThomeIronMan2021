@@ -14,10 +14,12 @@ ps. 由於MCU規格大小性能差異頗大，所以可以運行何種模型及�
 * Himax WE-I Plus （台灣廠商奇景光電）
 
 ![常見tinyML開發板](https://1.bp.blogspot.com/-lo9RGRcEGW8/YULrONzVvOI/AAAAAAAAEuA/WMx2JuDkfBQ6Fj3TSggyqeLBmUDiFjR0ACPcBGAYYCw/s1658/iThome_Day_03_Fig_01.jpg)
-Fig. 3-1 常見tinyML開發板。(OmniXRI整理繪製, 2021/8/14)
+Fig. 3-1 常見tinyML開發板。(OmniXRI整理繪製, 2021/8/14)  
+
 
 ![tinyML開發板主要規格比較](https://1.bp.blogspot.com/-KARrP57bcg8/YULuC33kUxI/AAAAAAAAEuM/L5izu-WWXJcbTg7khZ01JMVXxAn6EQLgwCLcBGAsYHQ/s1658/iThome_Day_03_Fig_02.jpg)
-Fig. 3-2 tinyML開發板主要規格比較。(OmniXRI整理繪製, 2021/8/14)
+Fig. 3-2 tinyML開發板主要規格比較。(OmniXRI整理繪製, 2021/8/14)  
+
 
 在Arm Cortex-M系列中，皆為32bit MCU，依指令集效能(非工作時脈速度）來排名，大概為M0, M0+, M1, M3, M4, M7, M23, M33, M35P, M55，而其內建的程式碼區(Flash)和靜態隨機記憶體(SRAM)通常不多，僅有數百KB到數MB而已，並會隨著不同廠商及產品線會有不同配置。不過相較於一般僅有數十KB Code Flash及數KB的SRAM，這樣的配置已相當不錯，可做出相當多的應用。
 
@@ -31,7 +33,8 @@ Fig. 3-2 tinyML開發板主要規格比較。(OmniXRI整理繪製, 2021/8/14)
 * 板子體積很小，僅有45mm x 18mm，非常適合直接做成產品原型機。
 
 ![Arduino Nano 33 BLE Sense規格表](https://1.bp.blogspot.com/-9pCPASiVMjQ/YUL0TGhUaSI/AAAAAAAAEuU/Rskgd8n11MUwEkO5hAHekDPPKFQkzuC2gCLcBGAsYHQ/s1658/iThome_Day_03_Fig_03.jpg)
-Fig. 3-3 Arduino Nano 33 BLE Sense規格表。(OmniXRI整理繪製, 2021/8/14)
+Fig. 3-3 Arduino Nano 33 BLE Sense規格表。(OmniXRI整理繪製, 2021/8/14)  
+
 
 另外Arduino Nano 33還有兩片兄弟板，分別為Nano 33 IoT, Nano 33 BLE，原則上和Nano 33 BLE Sense只差在感測器的支援數量不同，其它使用上都相同，更完整規格及使用說明可參見文末連結。
 
