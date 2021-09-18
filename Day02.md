@@ -25,4 +25,4 @@ Fig. 2-3 Arm MCU等級晶片智慧運算能力與適用情境 (OmniXRI整理繪�
 
 參考連結：
 
-tinyML基金會 https://www.tinyml.org/
+tinyML基金會 https://www.tinyml.org/ 
