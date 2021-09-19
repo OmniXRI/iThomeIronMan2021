@@ -6,33 +6,33 @@ tinyML是一個號稱以電池供電、毫瓦(mW)等級就能執行小型AI應�
 [Day 01] [在享受tinyML這道美食之前](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day01.md)  
 [Day 02] [什麼是tinyML?](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day02.md)  
 [Day 03] [tinyML開發板介紹](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day03.md)  
-[Day 04] 深度學習與神經網路  
-[Day 05]  
-[Day 06]  
-[Day 07]  
-[Day 08]  
-[Day 09]  
-[Day 10]  
-[Day 11]  
-[Day 12]  
-[Day 13]  
-[Day 14]  
-[Day 15]  
-[Day 16]  
-[Day 17]  
-[Day 18]  
-[Day 19]  
-[Day 20]  
-[Day 21]  
-[Day 22]  
-[Day 23]  
-[Day 24]  
-[Day 25]  
-[Day 26]  
-[Day 27]  
-[Day 28]  
-[Day 29]  
-[Day 30]   
+[Day 04] [深度學習與神經網路](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day04.md)  
+[Day 05] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day05.md)  
+[Day 06] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day06.md)  
+[Day 07] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day07.md)  
+[Day 08] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day08.md)  
+[Day 09] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day09.md)  
+[Day 10] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day10.md)  
+[Day 11] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day11.md)  
+[Day 12] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day12.md)  
+[Day 13] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day13.md)  
+[Day 14] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day14.md)  
+[Day 15] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day15.md)  
+[Day 16] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day16.md)  
+[Day 17] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day17.md)  
+[Day 18] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day18.md)  
+[Day 19] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day19.md)  
+[Day 20] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day20.md)  
+[Day 21] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day21.md)  
+[Day 22] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day22.md)  
+[Day 23] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day23.md)  
+[Day 24] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day24.md)  
+[Day 25] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day25.md)  
+[Day 26] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day26.md)  
+[Day 27] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day27.md)  
+[Day 28] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day28.md)  
+[Day 29] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day29.md)  
+[Day 30] [](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day30.md)  
 
 2021/09/16起至2021/10/15 挑戰連續更新30天，持續更新中，敬請期待！  
 
