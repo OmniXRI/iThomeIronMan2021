@@ -12,7 +12,7 @@ tinyML是一個號稱以電池供電、毫瓦(mW)等級就能執行小型AI應�
 [Day 07] [如何作出一盤好吃的AI專案](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day07.md)  
 [Day 08] [tinyML開胃菜Arduino IDE上桌（上）](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day08.md)  
 [Day 09] [tinyML開胃菜Arduino IDE上桌（下）](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day09.md)  
-[Day 10] [待更新...](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day10.md)  
+[Day 10] [tinyML整合開發平台介紹](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day10.md)  
 [Day 11] [待更新...](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day11.md)  
 [Day 12] [待更新...](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day12.md)  
 [Day 13] [待更新...](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day13.md)  
