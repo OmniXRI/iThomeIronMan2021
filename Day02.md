@@ -1,3 +1,5 @@
+## [Day 02] 什麼是tinyML? 
+
 「**tinyML**」就字面上意思就是微小的機器學習（Tiny Machine Learning, tinyML)，但它又和人工智慧(Artificial Intelligence, AI)及微控制器單元(Micro-Controller Unit, MCU)（又稱單晶片）有什麼關連呢？
 
 首先說明幾個常見的名詞定義及主要差異。
