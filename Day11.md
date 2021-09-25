@@ -121,6 +121,6 @@ Fig. 11-3 Arduino IDE 序列繪圖器即時顯示麥克風聲音變化圖。(Omn
 
 參考連結
 
-[Arduino Nano 33 BLE Sense Schematics電路圖](https://content.arduino.cc/assets/NANO33BLE_V2.0_sch.pdf)
-[AN5027 应用笔记 ─ 使用STM32 32位Arm® Cortex® MCU连接PDM数字麦克风（簡體版）](https://www.st.com/resource/zh/application_note/dm00380469-interfacing-pdm-digital-microphones-using-stm32-mcus-and-mpus-stmicroelectronics.pdf)
-[MEMS audio sensor omnidirectional digital microphone MP34DT05-A Datasheet 資料手冊](https://content.arduino.cc/assets/Nano_BLE_Sense_mp34dt05-a.pdf)
+[Arduino Nano 33 BLE Sense Schematics電路圖](https://content.arduino.cc/assets/NANO33BLE_V2.0_sch.pdf)  
+[AN5027 应用笔记 ─ 使用STM32 32位Arm® Cortex® MCU连接PDM数字麦克风（簡體版）](https://www.st.com/resource/zh/application_note/dm00380469-interfacing-pdm-digital-microphones-using-stm32-mcus-and-mpus-stmicroelectronics.pdf)  
+[MEMS audio sensor omnidirectional digital microphone MP34DT05-A Datasheet 資料手冊](https://content.arduino.cc/assets/Nano_BLE_Sense_mp34dt05-a.pdf)  
