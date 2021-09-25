@@ -1,3 +1,5 @@
+## [Day 06] tinyML的重要推手Arm Cortex-M MCU
+
 在[[Day 01]](https://ithelp.ithome.com.tw/articles/10264224)時就有提及，未來具有邊緣智能(Edge AI)的智慧物聯網(AIoT)裝置一定少不了單晶片(MCU)。而從[[Day 03]](https://ithelp.ithome.com.tw/articles/10265166)更可看出目前市售支援tinyML的開發板可能有九成以上都是使用Arm Cortex-M系列的MCU，所以接下來要來幫大家好好介紹為什麼它會如此受歡迎且佔有這麼重要的地位。
 
 首先要先了解一下什麼是MCU？這是一種發展了四十多年的技術，它將運算單元(CPU)、輸出入單元(GPIO)、輔助控制單元(Timer, UART, I2C, SPI, ADC等)及記憶體(Flash, SRAM, EEPROM)整合在同一顆晶片上，相當於把一部電腦塞進一個晶片中，故早期亦將MCU稱為「微電腦晶片」。近年來更有許多廠商把無線通訊部份（如WiFi, BlueTooth, Zeebee, 4G, 5G等）甚至人工智慧所需的神經運算加速單元（如NPU）加入其中。
