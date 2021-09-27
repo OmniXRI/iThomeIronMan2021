@@ -157,8 +157,8 @@ void loop() {
 
 參考連結
 
-[Google TensorFlow Lite for Microcontrollers 中文學習指南](https://www.tensorflow.org/lite/microcontrollers?hl=zh-tw)
-[Pete Warden Youtube, TinyML Book Screencasts Playlist 影片清單](https://youtu.be/Fdt9xunlyCQ?list=PLtT1eAdRePYoovXJcDkV9RdabZ33H6Di0)
-[TensorFlow Lite for Microcontrollers Github 開源碼](https://github.com/tensorflow/tflite-micro)
-[TFLM Get started with microcontrollers, The Hello World example](https://www.tensorflow.org/lite/microcontrollers/get_started_low_level?hl=zh-tw)
-[Experiments with Google = TensorFlow Lite for Microcontrollers 案例分享](https://experiments.withgoogle.com/collection/tfliteformicrocontrollers)
+[Google TensorFlow Lite for Microcontrollers 中文學習指南](https://www.tensorflow.org/lite/microcontrollers?hl=zh-tw)  
+[Pete Warden Youtube, TinyML Book Screencasts Playlist 影片清單](https://youtu.be/Fdt9xunlyCQ?list=PLtT1eAdRePYoovXJcDkV9RdabZ33H6Di0)  
+[TensorFlow Lite for Microcontrollers Github 開源碼](https://github.com/tensorflow/tflite-micro)  
+[TFLM Get started with microcontrollers, The Hello World example](https://www.tensorflow.org/lite/microcontrollers/get_started_low_level?hl=zh-tw)  
+[Experiments with Google = TensorFlow Lite for Microcontrollers 案例分享](https://experiments.withgoogle.com/collection/tfliteformicrocontrollers)  
