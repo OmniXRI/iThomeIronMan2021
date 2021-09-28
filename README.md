@@ -16,7 +16,7 @@ tinyML是一個號稱以電池供電、毫瓦(mW)等級就能執行小型AI應�
 [Day 11] [讓tinyML聽見你的呼喚](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day11.md)  
 [Day 12] [tinyML開發框架(一)：TensorFlow Lite Micro初體驗(上)](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day12.md)  
 [Day 13] [tinyML開發框架(一)：TensorFlow Lite Micro初體驗(下)](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day13.md)  
-[Day 14] [待更新...](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day14.md)  
+[Day 14] [tinyML開發框架(二)：Arm CMSIS 簡介](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day14.md)  
 [Day 15] [待更新...](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day15.md)  
 [Day 16] [待更新...](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day16.md)  
 [Day 17] [待更新...](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day17.md)  
