@@ -4,7 +4,7 @@
 
 在[[Day 11] 讓tinyML聽見你的呼喚](https://ithelp.ithome.com.tw/articles/10271661)已初步介紹過如何透過**BLE Sense**收集到板子上的微機電麥克風**MP34DT05-A**所接收到的聲音訊號。在[[Day 12]](https://ithelp.ithome.com.tw/articles/10272320)和[[Day 13]](https://ithelp.ithome.com.tw/articles/10273062)「tinyML開發框架(一)：TensorFlow Lite Micro初體驗」中，已分別幫大家介紹如何在**TFLM**上建立、訓練、優化模型、準備好MCU所需格式模型參數檔案，及如何使用**Arduino IDE**和**BLE Sense**將備妥的模型完整運行並推論起來。沒看過前面章節的朋友，麻煩先補一下課並把Arduino IDE工作環境建好，以免後面看的一頭霧水。接下來我們就順著**TFLM**官網介紹的[微語音(**micro_speech**)範例](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples/micro_speech)來說明如何把這兩樣素材結合在一起，完成一個類似智能音箱的語言命令的動作，說「YES」及「NO」來控制綠色和紅色LED點亮的功能。（如圖Fig. 16-1所示）
 
-![TensorFlow Lite Microcontroller提供之micro_speech聲音辨識範例運行結果](https://1.bp.blogspot.com/-Z_lbMlnS3Uc/YVXdC5w0bKI/AAAAAAAAEyI/iwexn-dc-dEplkVsyTGW3QrOWZNTxCoTgCLcBGAsYHQ/s480/iThome_Day_16_Fig_01.gif)
+![TensorFlow Lite Microcontroller提供之micro_speech聲音辨識範例運行結果](https://1.bp.blogspot.com/-Z_lbMlnS3Uc/YVXdC5w0bKI/AAAAAAAAEyI/iwexn-dc-dEplkVsyTGW3QrOWZNTxCoTgCLcBGAsYHQ/s480/iThome_Day_16_Fig_01.gif)  
 Fig. 16-1 TensorFlow Lite Microcontroller提供之micro_speech聲音辨識範例運行結果。（[圖片來源](https://github.com/tensorflow/tflite-micro/blob/main/tensorflow/lite/micro/examples/micro_speech/images/animation_on_arduino.gif)）
 
 要運行的這個範例不難，假設你已照著[[Day 13] tinyML開發框架(一)：TensorFlow Lite Micro初體驗(下) ](https://ithelp.ithome.com.tw/articles/10273062)圖13-2把Arduino_TensorFlowLite函式庫安裝好了，此時只要新增一個micro_speech範例（如下程式所示），經過編譯、上傳，接著開啟序列埠監控視窗，對著BLE Sense板子說出「YES」或「NO」，就能看到對應的綠色、紅色LED點亮，同時也會於監控視窗上看到對應字串。如果無法順利辨識就把板子靠近嘴巴一點，或者多說幾次來改善辨識結果。
