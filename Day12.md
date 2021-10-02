@@ -19,7 +19,7 @@ Fig. 12-1 TinyML經典入門書及作者Pete Warden。(OmniXRI整理繪製, 2021
 
 ### 訓練模型(Python + Google Colab + GPU)
 
-首先點擊Google提供的[Colab範例程式](https://colab.research.google.com/github/tensorflow/tflite-micro/blob/main/tensorflow/lite/micro/examples/hello_world/train/train_hello_world_model.ipynb?hl=zh-tw)，免下載，可直接運行，Jupyter Notebook操作環境，說明文字和程式一起存在，方便學習，只需在每個程式欄位左上角按下黑色箭頭（或者點想執行的欄位按Ctrl + Enter亦可）即可單步執行，但切記要按照順序把每個步驟都執行完，不能跳過任何一步驟。由於開啟後會看到先前運行結果都被保留在執行結果欄位，為了更清楚看到所有動作，可執行主選單的[編輯]─[清除所有輸出欄位]，將所有輸出欄位清除。
+首先點擊Google提供的[Colab範例程式](https://colab.research.google.com/github/tensorflow/tflite-micro/blob/main/tensorflow/lite/micro/examples/hello_world/train/train_hello_world_model.ipynb)，免下載，可直接運行，Jupyter Notebook操作環境，說明文字和程式一起存在，方便學習，只需在每個程式欄位左上角按下黑色箭頭（或者點想執行的欄位按Ctrl + Enter亦可）即可單步執行，但切記要按照順序把每個步驟都執行完，不能跳過任何一步驟。由於開啟後會看到先前運行結果都被保留在執行結果欄位，為了更清楚看到所有動作，可執行主選單的[編輯]─[清除所有輸出欄位]，將所有輸出欄位清除。
 
 首先說明這個「Hello World」程式主要想展示如何將一個TensorFlow建立好的模型轉換到TFLM，為了方便說明，並沒有使用現成常用的資料集，而是以正弦波加亂數方式產生一個資料集，然後訓練出一個模型（正弦波函數），使得輸入X位置就能推論出Y位置。
 
