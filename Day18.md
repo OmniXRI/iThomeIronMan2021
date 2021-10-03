@@ -5,8 +5,8 @@
 接下來就幫大家重要摘要一下此次由Arm機器學習群產品行銷副總Steve Roddy所分享的主題「The Future of Endpoint AI」（0:52:00處開始）。更完整的內容請自行參閱影片。以下說明有帶小括號()部份為個人補充說明，不一定和原演講內容相同。
 **註：以下內容僅供學習使用，並非直接翻譯，相關影片及簡報內容之版權皆為各公司所有，請勿移作他用。**
 
-[![Yes](https://img.youtube.com/vi/jTDjO1xf-yc/0.jpg)](https://www.youtube.com/watch?v=jTDjO1xf-yc)
-（影片來源：Youtube, Edge Impulse)
+[![Yes](https://img.youtube.com/vi/jTDjO1xf-yc/0.jpg)](https://www.youtube.com/watch?v=jTDjO1xf-yc)  
+（影片來源：Youtube, Edge Impulse, Imagine 2021: Innovation Keynotes)
 
 Arm是一家矽智財(IP)提供公司，基於Arm IP出貨的晶片，在2020年就有超過237億顆（註：據報導2020年第四季Cortex-M系列MCU出貨量就有超過44億顆）。深度學習（或說人工智慧）自2012年AlexNet贏得ImageNet大賽後，從此展開人工智慧的新時代，開始有大量的模型（算法）、硬體設備（算力）被實現。機器學習/人工智慧已是主流技術，並已普遍佈署在雲端和邊緣裝置，包括馬達振動、物件偵測（含影像分類）、語音助理及人臉偵測/解鎖等應用。
 
