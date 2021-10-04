@@ -71,5 +71,5 @@ ps. 為讓文章更活潑傳達硬梆梆的技術內容，所以引用了經典�
 
 [Edge Impulse官網](https://www.edgeimpulse.com/)  
 [Edge Impulse Documentation - Getting Started 說明文件](https://docs.edgeimpulse.com/docs)  
-[Edge Impulse Arduino Nano 33 BLE Sense安裝程序](https://docs.edgeimpulse.com/docs/arduino-nano-33-ble-sense)
-[Edge Impulse firmware for Arduino Nano 33 BLE Sense開源韌體](https://github.com/edgeimpulse/firmware-arduino-nano-33-ble-sense)
+[Edge Impulse Arduino Nano 33 BLE Sense安裝程序](https://docs.edgeimpulse.com/docs/arduino-nano-33-ble-sense)  
+[Edge Impulse firmware for Arduino Nano 33 BLE Sense開源韌體](https://github.com/edgeimpulse/firmware-arduino-nano-33-ble-sense)  
