@@ -4,14 +4,14 @@
 
 ## 模型設計
 
-![Edge Impulse 模型設計流程](https://1.bp.blogspot.com/-jjQ6SsUpSbA/YV0UGG2wHEI/AAAAAAAAE2M/z-UbHy2PIC8uCSqgfSnCqSFjbiL4Cr3xgCLcBGAsYHQ/s1658/iThome_Day_21_Fig_01.jpg)
-Fig. 21-1 Edge Impulse 模型設計流程。(OmniXRI整理繪製, 2021/10/6)
-
 這項功能原來英文為「**Impulse design**」，但翻譯成「衝動設計、驅使設計、推動設計」亦或其它，好像也有點怪，所以乾脆直接以它的作用「模型設計」來翻譯。其主要工作畫面如圖Fig. 21-1所示。接下來就介紹組成它的幾大區塊。
 * 時間序列資料
 * 信號處理區塊
 * 學習模型區塊
 * 輸出特徵儲存
+
+![Edge Impulse 模型設計流程](https://1.bp.blogspot.com/-jjQ6SsUpSbA/YV0UGG2wHEI/AAAAAAAAE2M/z-UbHy2PIC8uCSqgfSnCqSFjbiL4Cr3xgCLcBGAsYHQ/s1658/iThome_Day_21_Fig_01.jpg)
+Fig. 21-1 Edge Impulse 模型設計流程。(OmniXRI整理繪製, 2021/10/6)
 
 ### 時間序列資料
 
