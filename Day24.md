@@ -1,6 +1,6 @@
 ## [Day 24] Edge Impulse + BLE Sense實現手勢動作辨識(上)
 
-有了先前[[Day 20](https://ithelp.ithome.com.tw/articles/10277682)[Day 21](https://ithelp.ithome.com.tw/articles/10277700)[Day 22](https://ithelp.ithome.com.tw/articles/10278171)]「Edge Impulse + BLE Sense實現喚醒詞辨識」的基礎和[[Day 23] 讓tinyML感受你的律動 ](https://ithelp.ithome.com.tw/articles/10278725)對運動感測器(IMU)的認識後，相信接下來要說明的手勢（連續）動作辨識(Gesture/Continuous Motion Recognition)應該也能輕鬆上手。
+有了先前[[Day 20]](https://ithelp.ithome.com.tw/articles/10277682)[[Day 21]](https://ithelp.ithome.com.tw/articles/10277700)[[Day 22]](https://ithelp.ithome.com.tw/articles/10278171)「Edge Impulse + BLE Sense實現喚醒詞辨識」的基礎和[[Day 23] 讓tinyML感受你的律動](https://ithelp.ithome.com.tw/articles/10278725)對運動感測器(IMU)的認識後，相信接下來要說明的手勢（連續）動作辨識(Gesture/Continuous Motion Recognition)應該也能輕鬆上手。
 
 在這個案例中，我們同樣使用Edge Impulse雲端一站式tinyML開發平台，並以Arduino Nano 33 BLE Sense(**以下簡稱 BLE Sense**)開發板作為感測及佈署的硬體，主要會用到ST LSM9DS1 IMU運動感測器來收集XYZ三個軸向的加速度變化，而陀螺儀和地磁計就暫時不會用到。如圖Fig. 24-1所示。
 
