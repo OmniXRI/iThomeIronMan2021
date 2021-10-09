@@ -4,27 +4,36 @@
 
 在這個案例中，我們同樣使用Edge Impulse雲端一站式tinyML開發平台，並以Arduino Nano 33 BLE Sense(**以下簡稱 BLE Sense**)開發板作為感測及佈署的硬體，主要會用到ST LSM9DS1 IMU運動感測器來收集XYZ三個軸向的加速度變化，而陀螺儀和地磁計就暫時不會用到。如圖Fig. 24-1所示。
 
-![Edge Impulse結合Arduino Nano 33 BLE Sense作手勢動作辨識](https://1.bp.blogspot.com/-EqIe9kfdM8c/YWE4XBT-F9I/AAAAAAAAE4k/mS4ju0P7hawKBy3myd3ciqoqXQtRZccEwCLcBGAsYHQ/s1658/iThome_Day_24_Fig_01.jpg)
-Fig. 24-1 Edge Impulse結合Arduino Nano 33 BLE Sense作手勢動作辨識。(OmniXRI整理繪製, 2021/10/9)
+![Edge Impulse結合Arduino Nano 33 BLE Sense作手勢動作辨識](https://1.bp.blogspot.com/-EqIe9kfdM8c/YWE4XBT-F9I/AAAAAAAAE4k/mS4ju0P7hawKBy3myd3ciqoqXQtRZccEwCLcBGAsYHQ/s1658/iThome_Day_24_Fig_01.jpg)  
+Fig. 24-1 Edge Impulse結合Arduino Nano 33 BLE Sense作手勢動作辨識。(OmniXRI整理繪製, 2021/10/9)  
 
 為方便測試手勢運動，首先把BLE Sense固定在右手手背上（如圖Fig. 24-1a），如果不好固定可用使用一個手套或魔鬼沾做成手環，再將板子固定在手背上，要注意最好能緊密貼合，不要可以隨意晃動，這樣取到的信號品質會好些，微量振動會少些。
-![將BLE Sense開發板安置於手背以方便手勢辨識](https://1.bp.blogspot.com/-Cl8j6_XW494/YWD6P7eCPOI/AAAAAAAAE4E/yx6ugAtzj6wFNkXLPcZUV1h5fj6oEbHqgCPcBGAYYCw/s320/iThome_Day_24_Fig_02a.gif)
+
+![將BLE Sense開發板安置於手背以方便手勢辨識](https://1.bp.blogspot.com/-Cl8j6_XW494/YWD6P7eCPOI/AAAAAAAAE4E/yx6ugAtzj6wFNkXLPcZUV1h5fj6oEbHqgCPcBGAYYCw/s320/iThome_Day_24_Fig_02a.gif)  
 Fig. 24-2a 將BLE Sense開發板安置於手背以方便手勢辨識。(OmniXRI整理繪製, 2021/10/9)
 
 再來自定義四種手勢方便後續測試。當然這裡你可以自定義不同的手勢移動方式及分類數量，由於運動感測器非常敏感，容易收到許多雜訊，所以建議手勢間要有明確的XYZ軸向變化，比方前後、上下、左右、畫圓圈等運動，不能差異太少，否則模型訓練時會很難收歛，佈署後推論時準確率會很低。
-* **OK** : 伸出姆指比「讚」（當然姆指伸不伸出來是沒差的），由後向前運動並停頓一下。
-    ![OK手勢](https://1.bp.blogspot.com/-ewEyRkzhPzM/YWD6P_iSUOI/AAAAAAAAE4I/MM6TRGpTM8Q0-RUwrtR0uDgYr3O1I9FKgCPcBGAYYCw/s320/iThome_Day_24_Fig_02b.gif)
-    Fig. 24-2a OK手勢(OmniXRI整理繪製, 2021/10/9)
-* **NG** : 伸出食指由中間向右移動，再移至左方，再移回中間啟始位置，並頓點一下。只要搖擺一次。
-    ![NG手勢](https://1.bp.blogspot.com/-cA6lvVm8dqM/YWD66IOMeaI/AAAAAAAAE4U/4KGmUnUJx4krtSHY6w-rRNGnfQDCCdUKACLcBGAsYHQ/s320/iThome_Day_24_Fig_02c.gif)
-    Fig. 24-2b NG手勢(OmniXRI整理繪製, 2021/10/9)
-* **Pass** : 伸出食指畫一個圓圈，再回到原來的位置。
-    ![Pass手勢](https://1.bp.blogspot.com/-4CbGfoCHtxQ/YWD6SvkNReI/AAAAAAAAE4M/mwnfVYUcr3E0AgUwTWUAO5IgMDUes3JAgCPcBGAYYCw/s320/iThome_Day_24_Fig_02d.gif)
-    Fig. 24-2c Pass手勢(OmniXRI整理繪製, 2021/10/9)
-* Idle : 閒置手勢，手勢預備動作，須有固定位置和手的擺放角度。如需手勢任意擺放，則會增加資料集取樣複雜度和產生更多不明確手勢，所以暫以固定手勢預備動作來辨識。如有需要還可另外增設「不明手勢(Unknow)」分類。
-    ![Idel手勢](https://1.bp.blogspot.com/-hubLlxYILGg/YWD6SmVElxI/AAAAAAAAE4Q/6EuVWpYXMPEq6_xRqIhKONAg2FpRTsMQwCPcBGAYYCw/s320/iThome_Day_24_Fig_02e.gif)
-    Fig. 24-2d Idle手勢（手有在動，請仔細看）(OmniXRI整理繪製, 2021/10/9)
 
+* **OK** : 伸出姆指比「讚」（當然姆指伸不伸出來是沒差的），由後向前運動並停頓一下。
+
+    ![OK手勢](https://1.bp.blogspot.com/-ewEyRkzhPzM/YWD6P_iSUOI/AAAAAAAAE4I/MM6TRGpTM8Q0-RUwrtR0uDgYr3O1I9FKgCPcBGAYYCw/s320/iThome_Day_24_Fig_02b.gif)  
+    Fig. 24-2a OK手勢(OmniXRI整理繪製, 2021/10/9)
+    
+* **NG** : 伸出食指由中間向右移動，再移至左方，再移回中間啟始位置，並頓點一下。只要搖擺一次。
+
+    ![NG手勢](https://1.bp.blogspot.com/-cA6lvVm8dqM/YWD66IOMeaI/AAAAAAAAE4U/4KGmUnUJx4krtSHY6w-rRNGnfQDCCdUKACLcBGAsYHQ/s320/iThome_Day_24_Fig_02c.gif)  
+    Fig. 24-2b NG手勢(OmniXRI整理繪製, 2021/10/9)
+    
+* **Pass** : 伸出食指畫一個圓圈，再回到原來的位置。
+
+    ![Pass手勢](https://1.bp.blogspot.com/-4CbGfoCHtxQ/YWD6SvkNReI/AAAAAAAAE4M/mwnfVYUcr3E0AgUwTWUAO5IgMDUes3JAgCPcBGAYYCw/s320/iThome_Day_24_Fig_02d.gif)  
+    Fig. 24-2c Pass手勢(OmniXRI整理繪製, 2021/10/9)
+    
+* **Idle** : 閒置手勢，手勢預備動作，須有固定位置和手的擺放角度。如需手勢任意擺放，則會增加資料集取樣複雜度和產生更多不明確手勢，所以暫以固定手勢預備動作來辨識。如有需要還可另外增設「不明手勢(Unknow)」分類。
+
+    ![Idel手勢](https://1.bp.blogspot.com/-hubLlxYILGg/YWD6SmVElxI/AAAAAAAAE4Q/6EuVWpYXMPEq6_xRqIhKONAg2FpRTsMQwCPcBGAYYCw/s320/iThome_Day_24_Fig_02e.gif)  
+    Fig. 24-2d Idle手勢（手有在動，請仔細看）(OmniXRI整理繪製, 2021/10/9)
+    
 接著就可以進入Edge Impulse雲端平台依序執行下列工作。
 1. 建立新專案
 2. 確認連線裝置
