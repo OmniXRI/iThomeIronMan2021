@@ -59,7 +59,7 @@ Fig. 29-2 tinyML Vision Challenge 2021得獎作品。(OmniXRI整理繪製, 2021/
 
 ![Smart Bird Feeder_1](https://hackster.imgix.net/uploads/attachments/1358955/_q2JcQGlcbP.blob?auto=compress%2Cformat&w=900&h=675&fit=min)  
 ![Smart Bird Feeder_2](https://hackster.imgix.net/uploads/attachments/1335904/img_6095_uAYperkclx.JPG?auto=compress%2Cformat&w=740&h=555&fit=max)  
-![Smart Bird Feeder_3](https://hackster.imgix.net/uploads/attachments/1349848/solar_power_DW2ijb2ENX.png)  
+![Smart Bird Feeder_3](https://hackster.imgix.net/uploads/attachments/1349847/_goMbTuEtc2.blob?auto=compress%2Cformat&w=740&h=555&fit=max)  
 [[原文出處]](https://www.hackster.io/ariela-anna-audrey-nathan-tianlang-haoming-eric-edward-tara/smart-bird-feeder-1f5591)  
 
 「**智能餵鳥器**」，主要使用Arduino Nano 33 BLE Sense及OV7675攝影機模組，搭配Edge Impulse進行開發。這個作品是一群小朋友完成的，主要是為了防止松鼠偷吃小鳥的食物，利用機器視覺來辨識是否為小鳥。這裡使用了2912張影像來訓練，而模型則採用Mobilenetv1_0.25_96修改後進行訓練。最後佈署到開發板後，如果偵側到松鼠還會發出噪音來嚇跑它們，反之是小鳥時就安靜。由於這項設備非常省電，所以只需簡單太陽能板就能供應足夠的電力。
