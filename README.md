@@ -38,3 +38,4 @@ tinyML是一個號稱以電池供電、毫瓦(mW)等級就能執行小型AI應�
 2021/09/16起至2021/10/15 挑戰連續更新30天，持續更新中，敬請期待！  
 
 更多iThome 2021年(第13屆)鐵人賽介紹詳見 https://ithelp.ithome.com.tw/2021ironman/event  
+完整鐵人賽發表文章清單詳見 https://ithelp.ithome.com.tw/users/20141396/ironman/4855  
