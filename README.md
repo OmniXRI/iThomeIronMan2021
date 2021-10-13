@@ -30,8 +30,8 @@ tinyML是一個號稱以電池供電、毫瓦(mW)等級就能執行小型AI應�
 [Day 24] [Edge Impulse + BLE Sense實現手勢動作辨識(上)](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day24.md)  
 [Day 25] [Edge Impulse + BLE Sense實現手勢動作辨識(下)](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day25.md)  
 [Day 26] [[Edge Impulse + BLE Sense也能感受彩色的人生](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day26.md)  
-[Day 27] [Edge Impulse + BLE Sense實現影像分類(上) ](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day27.md)  
-[Day 28] [待更新...](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day28.md)  
+[Day 27] [Edge Impulse + BLE Sense實現影像分類(上)](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day27.md)  
+[Day 28] [Edge Impulse + BLE Sense實現影像分類(下)](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day28.md)  
 [Day 29] [待更新...](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day29.md)  
 [Day 30] [待更新...](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day30.md)  
 
