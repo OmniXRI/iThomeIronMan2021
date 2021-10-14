@@ -35,7 +35,9 @@ tinyML是一個號稱以電池供電、毫瓦(mW)等級就能執行小型AI應�
 [Day 29] [tinyML應用實例分享](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day29.md)  
 [Day 30] [從此人人都可以是tinyML食神](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day30.md)  
 
-2021/09/16起至2021/10/15 挑戰連續更新30天，持續更新中，敬請期待！  
+2021/09/16起至2021/10/15 挑戰連續更新30天，順利完賽！ 
 
 更多iThome 2021年(第13屆)鐵人賽介紹詳見 https://ithelp.ithome.com.tw/2021ironman/event  
 完整鐵人賽發表文章清單詳見 https://ithelp.ithome.com.tw/users/20141396/ironman/4855  
+
+![爭什麼，把AI和MCU摻在一起做tinyML就對了！](https://1.bp.blogspot.com/-Sp0Hk26cDfk/YWcoiO3wmUI/AAAAAAAAE7U/JPSu0v4FiV4dr4xaLvE--jMM-YG50WbKQCLcBGAsYHQ/s1654/iThome_Day_30_Fig_01.jpg)
