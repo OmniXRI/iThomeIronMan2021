@@ -34,8 +34,10 @@ tinyML是一個號稱以電池供電、毫瓦(mW)等級就能執行小型AI應�
 [Day 28] [Edge Impulse + BLE Sense實現影像分類(下)](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day28.md)  
 [Day 29] [tinyML應用實例分享](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day29.md)  
 [Day 30] [從此人人都可以是tinyML食神](https://github.com/OmniXRI/iThomeIronMan2021/blob/main/Day30.md)  
+[Day 31] [番外篇─如何將OV7670 + BLE Sense連到Edge Impulse取像](https://ithelp.ithome.com.tw/articles/10282107)
 
 2021/09/16起至2021/10/15 挑戰連續更新30天，順利完賽！ 
+2021/10/22 補發行[Day 31]
 
 更多iThome 2021年(第13屆)鐵人賽介紹詳見 https://ithelp.ithome.com.tw/2021ironman/event  
 完整鐵人賽發表文章清單詳見 https://ithelp.ithome.com.tw/users/20141396/ironman/4855  
